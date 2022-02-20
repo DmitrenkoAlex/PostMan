@@ -18,7 +18,7 @@ public class PostmanTest {
                 // Проверки
                 .then()
                 .statusCode(200)
-                .body ("headers.content-length",equalTo("10"));
+                .body ("headers.content-length",equalTo("5"));
 
     }
 }
